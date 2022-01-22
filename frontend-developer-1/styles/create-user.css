@@ -1,0 +1,36 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+.input-name,
+.input-email,
+.input-password {
+    margin-bottom: 22px;
+}
+
+.title {
+    text-align: start;
+    margin-bottom: 36px;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:640px) {
+    .form-container {
+        height: 100%;
+    }
+    .form {
+        height: 100%;
+        justify-content: space-between;
+    }
+}
